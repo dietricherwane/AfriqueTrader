@@ -1,0 +1,29 @@
+<div class="accordion-item-header">
+  <a href="#">
+    <%= user.full_name %>
+    <%= render "status_icons", user: user %>
+  </a>
+</div>
+<div class="accordion-item-body">
+  <p>
+    <b><%= User.human_attribute_name("profile_id") %>:</b> <%= user.profile.name %> 
+  </p>
+  <p>
+    <b><%= User.human_attribute_name("firstname") %>:</b> <%= user.firstname %> 
+  </p>
+  <p>
+    <b><%= User.human_attribute_name("lastname") %>:</b> <%= user.lastname %> 
+  </p>
+  <p>
+    <b><%= User.human_attribute_name("phone_number") %>:</b> <%= user.phone_number %> 
+  </p>
+  <p>
+    <b><%= User.human_attribute_name("mobile_number") %>:</b> <%= user.mobile_number %> 
+  </p>
+  <p>
+    <b><%= User.human_attribute_name("email") %>:</b> <%= user.email %> 
+  </p>
+  <p>
+    <b>Créé le:</b> <%= user.created_at %> 
+  </p>
+</div>

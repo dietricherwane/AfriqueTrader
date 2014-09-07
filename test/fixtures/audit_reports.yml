@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company_id: 1
+  audit_firm_id: 1
+  description: MyText
+  year: 1
+  created_by: 1
+
+two:
+  company_id: 1
+  audit_firm_id: 1
+  description: MyText
+  year: 1
+  created_by: 1

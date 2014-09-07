@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  investment_company_category_id: 1
+  selling_amount: 1.5
+  description: MyText
+  user_id: 1
+  published: false
+  social_status_id: 1
+  email: MyString
+  phone_number: MyText
+  fax_number: MyText
+  website: MyString
+  country_id: 1
+
+two:
+  investment_company_category_id: 1
+  selling_amount: 1.5
+  description: MyText
+  user_id: 1
+  published: false
+  social_status_id: 1
+  email: MyString
+  phone_number: MyText
+  fax_number: MyText
+  website: MyString
+  country_id: 1
